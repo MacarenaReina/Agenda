@@ -1,4 +1,3 @@
-<div *ngFor="let evento of eventos" class="evento">
-  <p class="titulo">{{evento.titulo}}</p>
-  <p class="titulo">{{evento.fecha | date}}</p>
+<div class="row m-0">
+  <app-evento *ngFor="let evento of eventos" [evento]="evento" class="col-md-3"></app-evento>
 </div>
