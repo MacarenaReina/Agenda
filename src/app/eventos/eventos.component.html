@@ -1,3 +1,13 @@
+<div class="row m-0 px-3 pt-3 pull-md-right eventos-header">
+  <div class="col-md-6 px-0">
+    <button type="button" class="btn btn-success">Hecho</button>
+    <button type="button" class="btn btn-warning mx-3">Pendiente</button>
+  </div>
+  <div class="col-md-6 px-0">
+    <button type="button" class="btn btn-outline-danger mr-3">Eliminar</button>
+    <button type="button" class="btn btn-outline-secondary">Añadir</button>
+  </div>
+</div>
 <div class="row m-0">
   <app-evento *ngFor="let evento of eventos" [evento]="evento" class="col-md-3"></app-evento>
 </div>

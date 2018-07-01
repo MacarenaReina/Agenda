@@ -1,0 +1,7 @@
+.eventos-header > div:first-child {
+    text-align: left;
+}
+
+.eventos-header > div:nth-child(2) {
+    text-align: right;
+}
